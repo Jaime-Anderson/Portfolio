@@ -127,6 +127,12 @@ button:focus,
 	transform: translateY(10px);
 }
 
+.navigation-list__item a:hover:before, 
+.navigation-list__item a:hover:after {
+	opacity: 1;
+	transform: translateY(0px);
+}
+
 .navigation-list__item--active {
 	text-decoration: underline;
 }
